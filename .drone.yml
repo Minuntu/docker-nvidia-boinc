@@ -1,7 +1,7 @@
 pipeline:
   publish:
     image: plugins/docker
-    repo: minuntu/nvidia-gridcoin
+    repo: minuntu/nvidia-boinc
     dockerfile: Dockerfile
     secrets: [ docker_username, docker_password ]
     when:
